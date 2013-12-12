@@ -1,0 +1,118 @@
+  <!-- Home Page -->
+  <div id="home" class="page color-1">
+    <div class="row inner-page">
+      <div class="col-md-12 center">
+      		<%= image_tag "home.png", :class => "center-img" %>
+      <h1 class="page-headline large">Miete Dir Deine Fachbücher!</h1>
+      <div class="fb-like" data-href="https://www.facebook.com/pages/CampusRitter/498824270213027" data-width="120" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+      <a href="#Vorteile" title="Warum sollte ich mir Bücher mieten" class="scroll btn btn-primary btn-centered"><i class="icon-caret-down"></i> Erfahre mehr</a>
+      </div>
+    </div>
+  </div> <!-- /#home -->
+
+  <!-- Sign up -->
+  <div class="sign-up color-2 visible-lg">
+    <div class="row inner-page">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div> <!-- /.sign-up -->
+
+  <!-- Feature page-->
+  <div id="Vorteile" class="page color-4">
+    <div class="inner-page">
+      <h2 class="page-headline">Warum macht mieten Sinn?</h2>
+    </div>
+
+    <div class="inner-page row">
+      <ul class="features list-inline">
+        <li>
+          <h4><i class="icon-money"></i> Spart Geld</h3>
+          <p>Schnell gibt man pro Semester mehrere hundert Euro für Bücher aus. Wir halbieren Deine Ausgaben, so dass Du während Deines Studiums noch Geld für die schönen Dinge des Lebens hast.</p>
+        </li>
+        <li>
+          <h4><i class="icon-shopping-cart"></i> Immer verfügbar</h3>
+          <p>Leider sind die Buchempfehlungen der Professoren nie in ausreichender Menge in der Bib vorhanden.<br>Lass uns Dir helfen. Wir lösen Dein Problem und schicken Dir genau die Bücher, die Du benötigst.</p>
+        </li>
+        <li>
+          <h4><i class="icon-truck"></i> Schnell & bequem</h3>
+          <p>Du bestellst einfach online und bekommst all Deine Bücher bequem zu Dir nach Hause geschickt.<br>Nach Ablauf der Mietzeit schickst Du Deine Bücher dann einfach wieder zu uns zurück.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Feature page-->
+  <div id="Vorteile" class="page color-4">
+    <div class="inner-page">
+      <h2 class="page-headline">Wo ist der Haken?</h2>
+      <h3 class="page-subtitel center">Unserer Anspruch ist es Dir den perfekten Service zu bieten</h3>
+    </div>
+
+    <div class="inner-page row">
+      <ul class="features list-inline">
+        <li>
+          <h4 class="schatten">Jederzeit anpassbar</h4>
+          <p>Du kannst Deine Miete jederzeit verlängern oder verkürzen. Wir wissen, dass sich das Leben oft schnell verändert. Mit uns bleibst Du flexibel.</p>
+        </li>
+        <li>
+          <h4 class="schatten">Nie teurer als Neukauf</h4>
+          <p>Wir werden Dir nie mehr berechnen als den Ladenpreis. Sobald Deine Mietzahlungen den Ladenpreis erreichen gehört dieses offiziell Dir!</p>
+        </li>
+        <li>
+          <h4 class="schatten">Dein Buch behalten</h4>
+          <p>Du möchtest am Ende der Mietdauer Dein Buch behalten? Kein Problem! Zahle einfach die Differenz zwischen Mietpreis und Ladenpreis.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="inner-page"><a href="/kalkulator" title="Was kosten mich die Buchmiete?" class="scroll btn btn-primary btn-centered">Was kostet mich die Buchmiete?</a></div>
+    <div class="inner-page"></div>
+  </div>
+
+  <!-- Contact page -->
+  <div id="kontakt" class="page color-2">
+    <div class="inner-page">
+      <h2 class="page-headline">Kontaktiere uns! Wir sind immer für Dich da!</h2>
+    </div>
+    <div class="row inner-page contact">
+      <div class="col-md-6">
+        <div id="wufoo-q7x4a9">
+        Fill out my <a href="https://campusritter.wufoo.com/forms/q7x4a9">online form</a>.
+        </div>
+        <script type="text/javascript">var q7x4a9;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'campusritter', 
+        'formHash':'q7x4a9', 
+        'autoResize':true,
+        'height':'497',
+        'async':true,
+        'header':'hide', 
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { q7x4a9 = new WufooForm();q7x4a9.initialize(options);q7x4a9.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');</script>
+      </div>
+      <div class="col-md-6">
+        <div class="btn-container centered lazy-container text-center">
+          <%= image_tag "map.png", :class => "lazy figurette" %>
+          <a class="lightbox iframe btn-map" target="blank" title="Open google maps" href="https://maps.google.com/maps?q=Bleickenallee 37,+Hamburg,+Deutschland&amp;hl=de"><i class="pull-left icon-map-marker"></i><div>Bleickenallee 37<br />Hamburg<br />Deutschland</div></a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /#contact -->
+  <!-- Newsletter -->
+<div class="newsletter color-1">
+  <div class="inner-page row">
+    <div class="col-md-4">
+      <h4><strong>Bleib informiert</strong>, CampusRitter Newsletter!</h4>
+    </div>
+    <div class="col-md-6">
+      <form action="http://gmail.us7.list-manage.com/subscribe/post?u=1be1e9bff32caf8d56b5fcfce&amp;id=e4a256d7b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><input type="email" value="" placeholder="your@e-mail.com" name="EMAIL" class="subscribe" id="mce-EMAIL">
+    </div>
+    <div class="col-md-2">
+      <input type="submit" value="anmelden " name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary pull-right btn-block"></form>
+    </div>
+  </div>
+</div> <!-- /newsletter -->
