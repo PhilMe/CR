@@ -1,0 +1,34 @@
+  <!-- Contact page -->
+  <div id="kontakt" class="page color-2">
+    <div class="inner-page">
+      <h2 class="page-headline">Kontaktiere uns! Wir sind immer für Dich da!</h2>
+    </div>
+    <div class="row inner-page contact">
+      <div class="col-md-6">
+        <div id="wufoo-q7x4a9">
+        Fill out my <a href="https://campusritter.wufoo.com/forms/q7x4a9">online form</a>.
+        </div>
+        <script type="text/javascript">var q7x4a9;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'campusritter', 
+        'formHash':'q7x4a9', 
+        'autoResize':true,
+        'height':'497',
+        'async':true,
+        'header':'hide', 
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { q7x4a9 = new WufooForm();q7x4a9.initialize(options);q7x4a9.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');</script>
+      </div>
+      <div class="col-md-6">
+        <div class="btn-container centered lazy-container text-center">
+          <%= image_tag "map.png", :class => "lazy figurette" %>
+          <a class="lightbox iframe btn-map" target="blank" title="Open google maps" href="https://maps.google.com/maps?q=Bleickenallee 37,+Hamburg,+Deutschland&amp;hl=de"><i class="pull-left icon-map-marker"></i><div>Bleickenallee 37<br />Hamburg<br />Deutschland</div></a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /#contact -->
