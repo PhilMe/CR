@@ -8,6 +8,7 @@ CrApp::Application.routes.draw do
   get 'impressum' => 'pages#impressum'
   get 'agb' => 'pages#agb'
   get 'kontakt' => 'pages#kontakt'
+  get 'faq' => 'pages#faq'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

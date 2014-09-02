@@ -15,7 +15,9 @@
  */
  
  body{
- 	background-color: #000000;
+ 	background-color: #fff;
+ 	background-image: url("assets/vertical-cloth.png");
+ 	background-repeat: repeat;
  }
 
  h1, h2{
