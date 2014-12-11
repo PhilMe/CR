@@ -10,6 +10,9 @@ CrApp::Application.routes.draw do
   get 'kontakt' => 'pages#kontakt'
   get 'faq' => 'pages#faq'
 
+  get 'blog' => 'pages#blog'
+  get 'blog/lernen-lernen-train-your-brain' => 'pages#blog-1'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

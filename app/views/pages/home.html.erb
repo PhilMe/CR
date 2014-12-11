@@ -5,7 +5,7 @@
       		<%= image_tag "home.png", :class => "center-img img-responsive" %>
       <h1 class="page-headline large">Miete Dir Deine Fachbücher!</h1>
       <h3>bei Deutschlands erster Fachbuchvermietung</h3>
-      <div class="fb-like" data-href="https://www.facebook.com/pages/CampusRitter/498824270213027" data-width="120" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"><br></div>
+      <br>
       <a href="#Vorteile" title="Warum sollte ich mir Bücher mieten" class="scroll btn btn-primary btn-centered"><i class="icon-caret-down"></i> Erfahre mehr</a>
       </div>
     </div>
@@ -18,77 +18,102 @@
       </div>
     </div>
   </div> <!-- /.sign-up -->
-  
-  <!-- Feature page-->
-  <div id="Vorteile" class="page color-4">
-    <div class="inner-page">
-      <h2 class="page-headline">Warum macht mieten Sinn?</h2>
-    </div>
 
-    <div class="inner-page row">
-      <ul class="features list-inline">
-        <li>
-          <h4><i class="icon-money"></i> Spart Geld</h3>
-          <p>Schnell gibt man pro Semester mehrere hundert Euro für Bücher aus. Bei der Buchmiete zahlst du nur so lange für ein Buch, wie du es tatsächlich nutzt. So hast du auch während deines Studiums noch Geld für die schönen Dinge des Lebens.</p>
-        </li>
-        <li>
-          <h4><i class="icon-shopping-cart"></i> Immer verfügbar</h3>
-          <p>Leider sind die Buchempfehlungen der Professoren nie in ausreichender Menge in der Bib vorhanden. Bei der Buchmiete bekommst du für jedes Studienfach die Bücher, die du brauchst – und immer in der aktuellsten Auflage!</p>
-        </li>
-        <li>
-          <h4><i class="icon-truck"></i> Schnell & bequem</h3>
-          <p>Du mietest einfach online und bekommst all Deine Bücher bequem zu Dir nach Hause geschickt. Nach Ablauf der Mietzeit schickst Du uns die Bücher dann einfach wieder zurück.<br><br><br></p>
-        </li>
-      </ul>
-    </div>
-
-    <div class="inner-page">
-      <h2 class="page-headline">Unser Versprechen</h2>
-      <h3 class="page-subtitel center">Da es unser Anspruch ist Dir den perfekten Service zu bieten</h3>
-    </div>
-
-    <div class="inner-page row">
-      <ul class="features list-inline">
-        <li>
-          <h4 class="schatten">Flexibel</h4>
-          <p>Vom Buchtest bis zur Semestermiete – wir bieten Dir für jeden Bedarf die passende Mietzeit! Und wenn mal was dazwischen kommt, kannst Du die Mietdauer jederzeit verlängern.</p>
-        </li>
-        <li>
-          <h4 class="schatten">Nie teurer als der Neukauf</h4>
-          <p>Wir werden Dir nie mehr berechnen als den Ladenpreis! Auch wenn Du die Miete mehrfach verlängerst, gilt: Sobald Du den Ladenpreis erreicht hast, gehört das Buch ganz offiziell Dir.</p>
-        </li>
-        <li>
-          <h4 class="schatten">Kaufen nach der Miete</h4>
-          <p>Du möchtest Dein Buch am Ende der Mietdauer behalten? Kein Problem. Zahle einfach die Differenz zwischen Mietpreis und Ladenpreis und das Buch gehört Dir!</p>
-        </li>
-      </ul>
-    </div>
-    <div class="inner-page">
-      <h2 class="page-headline">Was kostet mich die Buchmiete?</h2>
-      <h3 class="page-subtitel center">Mit unserem Kalkulator kannst Du für jedes Deiner Bücher den passenden Mietpreis berechnen.</h3>
-    </div>
-    <div class="inner-page"><a href="/kalkulator" title="Was kosten mich die Buchmiete?" class="scroll btn btn-primary btn-centered">Hier geht es zum Kalkulator!</a></div>
-    <div class="inner-page"></div>
-  </div>
+  <div class="container">
 
     <div class="row">
       <div class="col-md-12 center">
-        <h3>Wir sind gefördert durch</h3>
-        <%= image_tag "exist.png", :class => "center-img img-responsive" %>
+        <h3>Zeitungsartikel über CampusRitter</h3>
+
+        <a href="http://www.welt.de/print/die_welt/hamburg/article131960693/Hamburger-Firma-vermietet-Fachbuecher.html" target="_blank">
+        <div class="col-md-4 text-center">
+          <h4><strong>"Hamburger Firma vermietet Fachbücher"</strong></h4>
+          <%= image_tag "die-welt.png", :class => "center-img img-responsive" %>
+        </div></a>
+
+        <a href="http://www.abendblatt.de/wirtschaft/article131817776/Hamburger-Firma-vermietet-Fachbuecher.html" target="_blank">
+        <div class="col-md-4 text-center">
+          <h4><strong>"Start-up Campusritter drängt mit einem neuen Angebot auf den deutschen Markt"</strong></h4>
+          <%= image_tag "hamburger-abendblatt.png", :class => "center-img img-responsive" %>
+        </div></a>
+
+        <a href="http://www.zeit.de/2014/42/marieke-otto-interview" target="_blank">
+        <div class="col-md-4 text-center">
+          <h4><strong>"Wozu kaufen?" Interview mit Marieke Otto</strong></h4>
+          <%= image_tag "die-zeit.png", :class => "center-img img-responsive" %>
+        </div></a>
+        
+      </div>
+    </div>
+
+    <!-- Feature page-->
+    <div id="Vorteile" class="page color-4">
+      <div class="inner-page">
+        <h2 class="page-headline">Warum macht mieten Sinn?</h2>
+      </div>
+
+      <div class="inner-page row">
+        <div class="col-md-4">
+          <h4><i class="icon-money"></i> Spart Geld</h3>
+          <p>Schnell gibt man pro Semester mehrere hundert Euro für Bücher aus. Bei der Buchmiete zahlst du nur so lange für ein Buch, wie du es tatsächlich nutzt. So hast du auch während deines Studiums noch Geld für die schönen Dinge des Lebens.</p>
+        </div>
+        <div class="col-md-4">
+          <h4><i class="icon-shopping-cart"></i> Immer verfügbar</h3>
+          <p>Leider sind die Buchempfehlungen der Professoren nie in ausreichender Menge in der Bib vorhanden. Bei der Buchmiete bekommst du für jedes Studienfach die Bücher, die du brauchst – und immer in der aktuellsten Auflage!</p>
+        </div>
+        <div class="col-md-4">
+          <h4><i class="icon-truck"></i> Schnell & bequem</h3>
+          <p>Du mietest einfach online und bekommst all Deine Bücher bequem zu Dir nach Hause geschickt. Nach Ablauf der Mietzeit schickst Du uns die Bücher dann einfach wieder zurück.<br><br><br></p>
+        </div>
+      </div>
+
+      <div class="inner-page">
+        <h2 class="page-headline">Unser Versprechen</h2>
+        <h3 class="page-subtitel center">Unser Anspruch ist es Dir den perfekten Service zu bieten</h3>
+      </div>
+      <div class="inner-page row">
+        <div class="col-md-4">
+          <h4>Flexibel</h4>
+          <p>Vom Buchtest bis zur Semestermiete – wir bieten Dir für jeden Bedarf die passende Mietzeit! Und wenn mal was dazwischen kommt, kannst Du die Mietdauer jederzeit verlängern.</p>        
+        </div>
+        <div class="col-md-4">
+          <h4>Nie teurer als der Neukauf</h4>
+          <p>Wir werden Dir nie mehr berechnen als den Ladenpreis! Auch wenn Du die Miete mehrfach verlängerst, gilt: Sobald Du den Ladenpreis erreicht hast, gehört das Buch ganz offiziell Dir.</p>        
+        </div>
+        <div class="col-md-4">
+          <h4>Kaufen nach der Miete</h4>
+          <p>Du möchtest Dein Buch am Ende der Mietdauer behalten? Kein Problem. Zahle einfach die Differenz zwischen Mietpreis und Ladenpreis und das Buch gehört Dir!</p>        
+        </div>            
       </div>
 
 
-<!-- Newsletter -->
-<div class="newsletter color-1">
-  <div class="inner-page row">
-    <div class="col-md-4">
-      <h4><strong>Bleib informiert</strong>, CampusRitter Newsletter!</h4>
+      <div class="inner-page">
+        <h2 class="page-headline">Was kostet mich die Buchmiete?</h2>
+        <h3 class="page-subtitel center">Mit unserem Kalkulator kannst Du für jedes Deiner Bücher den passenden Mietpreis berechnen.</h3>
+      </div>
+      <div class="inner-page"><a href="/kalkulator" title="Was kosten mich die Buchmiete?" class="scroll btn btn-primary btn-centered">Hier geht es zum Kalkulator!</a></div>
+      <div class="inner-page"></div>
     </div>
-    <div class="col-md-6">
-      <form action="http://gmail.us7.list-manage.com/subscribe/post?u=1be1e9bff32caf8d56b5fcfce&amp;id=e4a256d7b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><input type="email" value="" placeholder="your@e-mail.com" name="EMAIL" class="subscribe" id="mce-EMAIL">
+
+      <div class="row">
+        <div class="col-md-12 center">
+          <h3>Wir sind gefördert durch</h3>
+          <%= image_tag "exist.png", :class => "center-img img-responsive" %>
+        </div>
+      </div>
+  </div>      
+
+  <!-- Newsletter -->
+  <div class="newsletter color-1">
+    <div class="inner-page row">
+      <div class="col-md-4">
+        <h4><strong>Bleib informiert</strong>, CampusRitter Newsletter!</h4>
+      </div>
+      <div class="col-md-6">
+        <form action="http://gmail.us7.list-manage.com/subscribe/post?u=1be1e9bff32caf8d56b5fcfce&amp;id=e4a256d7b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><input type="email" value="" placeholder="your@e-mail.com" name="EMAIL" class="subscribe" id="mce-EMAIL">
+      </div>
+      <div class="col-md-2">
+        <input type="submit" value="anmelden " name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary pull-right btn-block"></form>
+      </div>
     </div>
-    <div class="col-md-2">
-      <input type="submit" value="anmelden " name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary pull-right btn-block"></form>
-    </div>
-  </div>
-</div> <!-- /newsletter -->
+  </div> <!-- /newsletter -->

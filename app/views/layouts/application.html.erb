@@ -14,37 +14,27 @@
     document.write(unescape("%3Cscript src='assets/jquery.js' type='text/javascript'%3E%3C/script%3E"));
   }
   </script>
-  <script>
-  // History, and back button
-  $(function() {
-    jQuery.history.listen()
-    $('.nav .scroll').click(function() {
-      $.history.push('index.html' + $(this).attr('href'));
-    });
-  });
-  </script>
+
   <%= csrf_meta_tags %>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Sumome.com -->
+	<script src="//load.sumome.com/" data-sumo-site-id="621073fca07a5e0dbf9124c2f9af68a059b8fe5c4c564ec0df9adc3c84a24108" async></script>
+  <!-- End Sumome.com -->
+
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
-  <div id="fb-root"></div>
-  <script>
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+
 <%= render 'layouts/navigation' %>
 <%= yield %>
 <%= render 'layouts/footer' %>
+
 <!-- Pure Chat Snippet -->
-<script type='text/javascript'>
-(function () {  var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript';  script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: '03350ac3-ca44-4e21-bc15-11d54cd52254', f: true }); done = true; } };  })();
-</script>
+  <script type='text/javascript'>
+  (function () {  var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript';  script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: '03350ac3-ca44-4e21-bc15-11d54cd52254', f: true }); done = true; } };  })();
+  </script>
 <!-- End Pure Chat Snippet -->
+
 </body>
 </html>
