@@ -12,6 +12,7 @@ CrApp::Application.routes.draw do
 
   get 'blog' => 'pages#blog'
   get 'blog/lernen-lernen-train-your-brain' => 'pages#blog-1'
+  get 'blog/prüfungsstress-kampf-gegen-schlafmangel-und-emotionen' => 'pages#blog-2'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
